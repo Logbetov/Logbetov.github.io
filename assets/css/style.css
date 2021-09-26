@@ -1,0 +1,211 @@
+body {
+	margin: 0;
+	font-family: 'Jura', sans-serif;
+
+	font-size: 15px;
+	line-height: 1.6;
+	color: black;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background: url("../images/intro.jpg") center
+	no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.intro_inner {
+	width: 100%;
+	
+	margin: 0 auto;
+	text-align: center;
+}
+
+.intro_title2 {
+	font-size: 60px;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Cormorant Infant', serif;
+	text-shadow: 5px 5px 5px black, 0 0 2em black;
+	color: white;
+}
+
+.intro_title {
+	font-size: 100px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Cormorant Infant', serif;
+	text-shadow: 4px 4px 12px black, 0 0 2em black;
+	color: #E8E8E8;
+
+}
+
+.intro_title:after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 2px;
+	margin: 15px auto 0;
+
+	background-color: #fff;
+
+}
+
+.header {
+	padding-top: 30px;
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.header_logo {
+
+	font-size: 40px;
+	font-weight: 700;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+.nav {
+	font-size: 19px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.nav_link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	position: relative;
+
+	color: white;
+	text-decoration: none;
+
+	transition: color 0.2s linear;
+
+}
+
+.nav_link:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	display: none;
+
+	background-color: #fee771;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+}
+
+
+
+.nav_link:hover {
+	color: #fee771;
+}
+
+.nav_link:hover:after {
+	display: block;
+}
+
+.section {
+	padding: 80px 0;
+}
+
+.section_header {
+	width:  100%
+	max-width: 950px;
+	margin: 0 auto 40px;
+
+	text-align: center;
+}
+
+.section_title {
+	font-size: 38px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.section_text {
+	font-size: 25px;
+}
+
+.section_title:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 5px auto;
+
+	background-color: #282828;
+
+}
+
+.about {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_item {
+	width: 380px;
+	
+}
+
+.about_item:hover {
+	transform: translate3d(-10px, -10px, 0);
+	box-shadow: 8px 8px 5px 0px #181818;
+	transition: box-shadow 0.3s linear;
+
+}
+
+.section_title_kontakte {
+	font-size: 35px;
+	width:  200%;
+	max-width: 950px;
+	margin: 0 auto 40px;
+	font-family: 'Poppins', sans-serif;
+
+	text-align: center;
+
+}
+
+
