@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 300px) {
 	.intro_title {
 		font-size: 10px;
 	}
